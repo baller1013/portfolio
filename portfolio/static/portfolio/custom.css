@@ -1,0 +1,28 @@
+.navbar-nav .nav-link {
+    color: rgba(0,0,0,1) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(150, 0, 0) !important;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+#myname {
+  font-family: 'Cormorant Garamond', serif;
+}
+#blogtitle {
+    font-size: 6rem;
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 4rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
