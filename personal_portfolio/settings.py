@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '*h8lnhnpjjt+xf4ai!eik&g+_4zco5_1z@-do*4#7ef_=2e^7-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['wditto.pythonanywhere.com']
 
 
 # Application definition
@@ -120,6 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = (BASE_DIR / 'static')
 #nothing special about the media term in both Media_url and Media Root - they don't have to match
 MEDIA_URL = '/media/'
 MEDIA_ROOT = (BASE_DIR / 'media')
